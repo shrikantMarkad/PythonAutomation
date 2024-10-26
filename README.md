@@ -12,4 +12,5 @@ convert http:\\localhost.8080 using cmd "ngrok htttp 8080"
 If all went well then new jenkins address will be displaying on the cmd
 Note: This address is temp until ngrok cmd window is open, next time you will get another address since we are using free plan.
 
+For --alluredir error please use "python -m pip install pytest allure-python-commons allure-pytest" to recfity errors related to allure
 
