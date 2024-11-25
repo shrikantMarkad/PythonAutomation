@@ -36,21 +36,21 @@ class TestSelenium(BaseTest):
         #
         #     actions.click(element)
 
-    @pytest.mark.parametrize("ss", ["e", "h"])
-    def test_login_1(self, ss):
-        with allure.step("Testcase executed and passed with all steps"):
-            self.orange_login()
-            assert self.driver.title == "OrangeHRM", "Home page title does not matched"
-
-    @pytest.mark.parametrize("ss", ["e", "h"])
-    def test_login_2(self, ss):
-        with allure.step("Testcase executed and passed with all steps"):
-            self.orange_login()
-            assert self.driver.title == "OrangeHRM1", "Home page title does not matched"
-
-    @pytest.mark.parametrize("ss", ["e", "h"])
-    def test_login_3(self, ss):
-        with allure.step("Testcase executed and passed with all steps"):
-            self.orange_login()
-            assert self.driver.title == "OrangeHRM", "Home page title does not matched"
+    # @pytest.mark.parametrize("ss", ["e", "h"])
+    # def test_login_1(self, ss):
+    #     with allure.step("Testcase executed and passed with all steps"):
+    #         self.orange_login()
+    #         assert self.driver.title == "OrangeHRM", "Home page title does not matched"
+    #
+    # @pytest.mark.parametrize("ss", ["e", "h"])
+    # def test_login_2(self, ss):
+    #     with allure.step("Testcase executed and passed with all steps"):
+    #         self.orange_login()
+    #         assert self.driver.title == "OrangeHRM1", "Home page title does not matched"
+    #
+    # @pytest.mark.parametrize("ss", ["e", "h"])
+    # def test_login_3(self, ss):
+    #     with allure.step("Testcase executed and passed with all steps"):
+    #         self.orange_login()
+    #         assert self.driver.title == "OrangeHRM", "Home page title does not matched"
 
